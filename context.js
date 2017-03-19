@@ -17,10 +17,10 @@ var wall_e = new Robot("Wall-E");
 
 
 // #1
-console.log(add(1, 2));
+console.log(add(0, 1));
 
 // #2
-console.log(add.call(voltron, 1, 2));
+console.log(add.call(voltron, 2, 3));
 
 // #3
 console.log(add.apply(optimus, [20, 30]));
